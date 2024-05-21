@@ -31,4 +31,4 @@ An example of how your program should await a reponse is shown below.
   while output == "":
       output = file.readline()
 ```
-print(output)![Sequence diagram](https://github.com/BrandonNguyenOSU/microservices/assets/135754216/a9dbc155-5399-4c28-af98-1f266f166273)
+![Sequence diagram (1)](https://github.com/BrandonNguyenOSU/microservices/assets/135754216/66281efa-d9c1-46c5-96e8-90409bc1ed84)
