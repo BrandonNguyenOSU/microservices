@@ -9,7 +9,7 @@ The character sheet should be found in the same directory as all of the other fi
 An example of how your program should await a reponse is shown below.
 
 # example microservice request call
-
+```
   import json
   character = {"name":"Brandomonkey",
                "class":"Ranger",
@@ -24,11 +24,11 @@ An example of how your program should await a reponse is shown below.
   file = open(r"getSheet.txt","w+")
   json_char = json.dumps(character) 
   file.write(json_char)
-
+```
 # example microservice response call
-
+```
   output = ""
   while output == "":
       output = file.readline()
-  
+```
 print(output)![Sequence diagram](https://github.com/BrandonNguyenOSU/microservices/assets/135754216/a9dbc155-5399-4c28-af98-1f266f166273)
