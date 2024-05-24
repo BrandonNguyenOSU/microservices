@@ -1,5 +1,7 @@
 # Microservice A
 
+Firstly, run the microservice (sheetGen.py) in its own terminal. Use the command "python sheetGen.py"
+
 In order to request data from the microservice, your program must assemble a dictionary of character data.
 This dictionary should be converted to json using the "json.dumps" command and written to the txt file: "getSheet.txt".
 An example request is shown below.
